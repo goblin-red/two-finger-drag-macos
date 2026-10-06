@@ -1,4 +1,12 @@
-# GOBL(in) Drag & Taskbar for macOS
+<p align="center"><img src="docs/banner.png" alt="GOBL(in) Drag & Taskbar: macOS window manager with trackpad gestures and a taskbar" width="100%"></p>
+
+# GOBL(in) Drag & Taskbar — trackpad window gestures, a taskbar and Alt-Tab for macOS
+
+![macOS 13+](https://img.shields.io/badge/macOS-13+-000000?logo=apple&logoColor=white) ![Swift native](https://img.shields.io/badge/Swift-native-F05138?logo=swift&logoColor=white) ![Apple Silicon %26 Intel universal](https://img.shields.io/badge/Apple%20Silicon%20%26%20Intel-universal-555555) [![license MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/goblin-red/Drag-and-Taskbar?style=social)](https://github.com/goblin-red/Drag-and-Taskbar/stargazers)
+
+**Stop hunting for the title bar.** Hold a modifier key and drag any window from anywhere with two fingers on the trackpad, swipe to minimize, maximize or close it, see every open window in a Windows-style taskbar with previews, and switch windows with Option+Tab (an Alt-Tab for Mac that includes minimized windows). A free, native menu bar app.
+
+<p align="center"><img src="docs/drag-swipes.jpg" alt="Two-finger trackpad swipes: minimize, maximize and move macOS windows" width="80%"></p>
 
 Move, minimize and switch windows with trackpad gestures. Hold a modifier key and the window under
 the cursor follows your finger, wherever you "grab" it. No more aiming for the title bar.
@@ -97,6 +105,32 @@ next to the app, with a comment for each line. It is created with the default va
 | `logo.svg`, `AppIcon.icns` | the Goblin logo for the menu and the app icon |
 | `AGENTS.md` | full technical documentation and critical rules |
 | `CHANGELOG.md` | change history |
+
+## FAQ
+
+**How do I move a window on a Mac without grabbing the title bar?**
+Hold the modifier key (Option by default) and move two fingers on the trackpad — the window under the cursor follows. You can also drag with the mouse while holding the modifier.
+
+**Is there a Windows-like taskbar for macOS?**
+Yes — the Taskbar option shows every open window as a button along the bottom of the screen, with hover previews and quick access to minimized windows.
+
+**Is there an Alt-Tab for Mac that switches windows, not apps?**
+Option+Tab opens a switcher with every window of every running app, minimized ones included.
+
+## More GOBL(in) apps
+
+Free and open source, from the makers of [GOBL(in)](https://goblin.red):
+
+| App | What it does |
+| --- | --- |
+| [GOBL(in) Remote](https://github.com/goblin-red/Goblin-Remote) | self-hosted remote desktop for macOS in any browser, over cheap PHP hosting |
+| [GOBL(in) Voice](https://github.com/goblin-red/Orca-Voice) | voice control and dictation for Claude Code, Codex and Orca on macOS |
+| [GOBL(in) Session Viewer](https://github.com/goblin-red/Session-Viewer) | every Claude Code, Codex, Grok and OpenCode session in one window |
+| [GOBL(in) Convert](https://github.com/goblin-red/Photo-Convert) | fast batch JPEG converter and photo resizer for macOS |
+| [GOBL(in) Workflow](https://github.com/goblin-red/Workflow) | visual flowchart workflows run by AI coding agents |
+
+If this project is useful to you, please ⭐ star it — it helps other people find it.
+
 
 ## License
 
